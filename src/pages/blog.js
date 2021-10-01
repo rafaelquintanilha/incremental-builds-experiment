@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import { useStaticQuery, graphql } from "gatsby";
+import { useStaticQuery, graphql, Link } from "gatsby";
 import { content } from "./blog.module.css";
 
 const Blog = () => {
@@ -23,7 +23,9 @@ const Blog = () => {
         <h1>My Blog</h1>
         <ul className={content}>
           {posts.map((post) => (
-            <li key={post.slug}>{post.title}</li>
+            <li key={post.slug}>
+              <Link to={`/blog/${post.slug}`}>{post.title}</Link>
+            </li>
           ))}
         </ul>
       </div>

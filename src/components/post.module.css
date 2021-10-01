@@ -1,0 +1,16 @@
+.container {
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  top: -40px;
+}
+
+.body img {
+  max-width: 100%;
+}
+
+.body figure {
+  margin: 0;
+}
