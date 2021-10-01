@@ -20,7 +20,7 @@ const Blog = () => {
   return (
     <Layout>
       <div>
-        <h1>Blog</h1>
+        <h1>My Blog</h1>
         <ul className={content}>
           {posts.map((post) => (
             <li key={post.slug}>{post.title}</li>
