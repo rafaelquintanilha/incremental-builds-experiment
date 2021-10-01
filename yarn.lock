@@ -2219,7 +2219,7 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.3.3.tgz#b55cd8e8ddf659fe89b064680e1c6a4dceab0325"
   integrity sha512-/lqqLAmuIPi79WYfRpy2i8z+x+vxU3zX2uAm0gs1q52qTuKwolOj1P8XbufpXcsydrpKx2yGn2wzAnxCMV86QA==
 
-axios@^0.21.1, axios@^0.21.4:
+axios@^0.21.1, axios@^0.21.4, axios@~0.21.1:
   version "0.21.4"
   resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
   integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
@@ -2540,6 +2540,13 @@ busboy@^0.2.11:
   dependencies:
     dicer "0.2.5"
     readable-stream "1.1.x"
+
+buttercms@^1.1.1:
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/buttercms/-/buttercms-1.2.7.tgz#879c099840c1082f584757d24b3aad4c4315f4ad"
+  integrity sha512-WMXOXJbi+plygv+h07GitaJ97njwFLYeJD2kYNbOKTBJgUU55yqb8ILF4Y9pdxN7tuPf1d/5xqIcNA9DYPHtSg==
+  dependencies:
+    axios "~0.21.1"
 
 bytes@3.0.0:
   version "3.0.0"
@@ -4683,6 +4690,13 @@ gatsby-recipes@^0.25.0:
     ws "^7.3.0"
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
+
+gatsby-source-buttercms@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/gatsby-source-buttercms/-/gatsby-source-buttercms-2.2.1.tgz#b997adc15d4843b096de05343ba27cbb94b2491f"
+  integrity sha512-eLEPKjawh0huk/TpnuZrH8y6FXF9YOOxzqOjG9LVwbQljgAh3WgS93paOHSdSfUPbO2NxUrCmRn4sT+LjWNHGQ==
+  dependencies:
+    buttercms "^1.1.1"
 
 gatsby-telemetry@^2.14.0:
   version "2.14.0"
