@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "https://incremental-builds.netlify.app",
     title: "Incremental Builds Experiment",
   },
   plugins: [
